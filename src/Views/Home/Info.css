@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+.infoContainer{
+    font-family: 'Press Start 2P';
+    position: relative;
+    top: 25rem;
+    padding: 0 1.5rem;
+}
+.infoContainer h2, h1{
+    
+    color: rgb(238, 241, 24);
+}
+.infoContainer h2 {
+    font-size: 45px;
+}
+.infoContainer h1 {
+    font-size: 50px;
+}
+
+.infoContainer p {
+    color: white;
+    font-size: 25px;
+}
+
+.infoContainer hr {
+    border: 2px solid cyan;
+    border-radius: 5px;
+}

@@ -1,9 +1,15 @@
 import React from 'react'
+import './Home.css'
+import Info from './Info'
 
 const Home = () => {
-    return(
-        <div>
-
+    return (
+        <div className="homeContainer">
+            <Info
+                name="Walter"
+                compname="Wolz"
+                iam="JavaScript Full Stack"
+            />
         </div>
     )
 }
