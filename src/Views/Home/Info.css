@@ -11,15 +11,15 @@
     color: rgb(238, 241, 24);
 }
 .infoContainer h2 {
-    font-size: 45px;
+    font-size: 30px;
 }
 .infoContainer h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .infoContainer p {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .infoContainer hr {
