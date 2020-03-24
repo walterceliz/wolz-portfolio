@@ -6,7 +6,7 @@ const Navbar = props => {
   return (
       <nav className="navbar navbar-expand-lg navbar-light fixed-top">
         <div className="container">
-        <Link className="navbar-brand" to="/"><span className="wea1">/</span>logo</Link>
+        <Link className="navbar-brand" to="/">{/* <span className="wea1">/</span> */}<img src="https://upload.wikimedia.org/wikipedia/fr/4/46/Ecole_W_Logo.png" alt="logo"/></Link>
           <button
             className="navbar-toggler"
             type="button"
