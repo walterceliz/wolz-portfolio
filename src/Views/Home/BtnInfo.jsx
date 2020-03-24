@@ -13,7 +13,7 @@ const BtnInfo = (props) => {
                 <div className="modal-dialog modal-dialog-centered" role="document">
                     <div className="modal-content custom2">
                         <div className="modal-header">
-                            <h5 className="modal-title" id="exampleModalCenterTitle">Logo</h5>
+                            <h5 className="modal-title" id="exampleModalCenterTitle"><img className="logoModal" src="https://upload.wikimedia.org/wikipedia/fr/4/46/Ecole_W_Logo.png" alt="logo"/></h5>
                                 <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
