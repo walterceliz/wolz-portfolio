@@ -9,8 +9,7 @@ const Home = () => {
             <Info
                 name="Walter"
                 compname="Wolz"
-                iam="Desarrollador Full Stack JavaScript"
-
+                iam="Full Stack JavaScript"
             />
             <BtnInfo
                 name="Walter, Gabriel Celiz"
