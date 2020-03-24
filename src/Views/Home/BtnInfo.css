@@ -10,3 +10,15 @@
     border-color: transparent;
     font-size: 50px;
 }
+
+.custom1 {
+    background: rgb(16, 2, 34);
+}
+.custom2 {
+    background: rgb(16, 2, 34);
+    color: white;
+}
+
+.modal-body{
+    background: url("https://image.freepik.com/foto-gratis/retrato-hombre-fondo-negro-hombre-negocios-planeando-trabajo_98785-97.jpg") center;
+}

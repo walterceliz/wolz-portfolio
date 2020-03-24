@@ -5,15 +5,15 @@ const BtnInfo = (props) => {
     return (
         <div className="movete">
             <button type="button" className="btn btn-success" data-toggle="modal" data-target="#exampleModalCenter">
-                <span>👆</span>
+                <span role="img" aria-label="sheep">👆</span>
             </button>
 
            {/*  Modal */}
             <div className="modal fade custom1" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                 <div className="modal-dialog modal-dialog-centered" role="document">
-                    <div className="modal-content">
+                    <div className="modal-content custom2">
                         <div className="modal-header">
-                            <h5 className="modal-title" id="exampleModalCenterTitle">Walter Wolz Developer</h5>
+                            <h5 className="modal-title" id="exampleModalCenterTitle">i'm Wolz</h5>
                                 <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
