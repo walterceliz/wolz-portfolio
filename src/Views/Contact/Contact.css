@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+.contactBack {
+    background: url("https://media1.tenor.com/images/7988df7c61952bc93c4a20dbf4e724c7/tenor.gif?itemid=8451165") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.contactBack:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(38, 4, 66, 0.262);
+}
+
+.talkbox h2 {
+    position: relative;
+    top: 28rem;
+    color: white;
+    text-align: center;
+    font-family: 'Press Start 2P';
+    font-size: 1.2rem;
+    border: solid;
+    border-color: yellow;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.detalle1 {
+    color: cyan;
+}
+
+.cardcontainer {
+    position: relative;
+    top: 10rem;
+    
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    background: transparent;
+}
+

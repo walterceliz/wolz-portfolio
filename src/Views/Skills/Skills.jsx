@@ -28,12 +28,14 @@ class Skills extends Component {
             <div className="skillsBack">
                 <Skill/>
                 <button type="button" className="btn btn-outline-warning fE"
-                onClick={() => {handleOnclick('frontEnd')}}>Front-End
+                /* onClick={() => {handleOnclick('frontEnd')}} */>Front-End
                 </button>
+
                 <button type="button" className="btn btn-outline-warning bE"
-                onClick={() => {handleOnclick('backEnd')}}>-Back-End</button>
+               /*  onClick={() => {handleOnclick('backEnd')}} */>-Back-End
+                </button>
             </div>
-        );
+        )
     }
 }
 

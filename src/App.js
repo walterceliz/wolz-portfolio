@@ -6,9 +6,7 @@ import Navbar from './Components/Navbar'
 import Home from './Views/Home/Home'
 import Skills from './Views/Skills/Skills'
 import Portfolio from './Views/Portfolio/Portfolio'
-//import Contact from './Views/Contact/Contact'
-
-
+import Contact from './Views/Contact/Contact'
 
 function App() {
   return (
@@ -21,7 +19,7 @@ function App() {
         <Route path='/home'  exact component={Home} />
         <Route path='/skills' component={Skills} />
         <Route path='/portfolio' component={Portfolio} />
-        {/* <Route path='/contact'  exact component={Contact} /> */}
+        <Route path='/contact'  exact component={Contact} />
       </Switch>
       </BrowserRouter>
 
