@@ -1,0 +1,25 @@
+.skillsBack {
+    background: url("https://66.media.tumblr.com/0a132b91a3d9f2e6d98926ddf3dae31c/16b0f6a4b3f0435c-f4/s640x960/45386dfcd4e94900e55fde584ac76ae14a9057d0.gifv") center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.skillsBack button {
+    padding: 0 30px;
+    color:yellow;
+    text-align: center;
+    position: relative;
+    bottom: 2rem;
+    left: 3rem;
+    font-size: 1.5rem;
+    border: solid yellow;
+    background: rgba(0, 0, 0, 0.566);
+    font-family: 'Press Start 2P';
+}
+
+/* .skillsBack .bE{
+    padding-right: 53px;
+} */
+
+

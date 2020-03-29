@@ -1,0 +1,82 @@
+[   
+    {
+        "id": 0,
+        "type": "frontEnd",
+        "img": "https://cnnespanol2.files.wordpress.com/2019/12/s_64a163f16ecbb099e52f2f8271f73cbbfcfc9034be4d646f7375e4db1ca6f3d7_1573501883482_ap_19001106049831-1.jpg?quality=100&strip=info&w=320&h=240&crop=1",
+        "name": "Git",
+        "level": "4",
+        "hash": "#asdasd"
+    },
+    {
+        "id": 1,
+        "type": "frontEnd",
+        "img": "https://i.ytimg.com/vi/n_KrxgXrU4w/maxresdefault.jpg",
+        "name": "Html 5",
+        "level": "4",
+        "hash": "#asdasd"
+    },
+    {
+        "id": 2,
+        "type": "frontEnd",
+        "img": "",
+        "name": "Css 3",
+        "level": "3",
+        "hash": "#asdasd"
+    },
+    {
+        "id": 3,
+        "type": "frontEnd",
+        "img": "",
+        "name": "Boostrap 4",
+        "level": "4",
+        "hash": "#asdasd"
+    },
+    {
+        "id": 4,
+        "type": "frontEnd",
+        "img": "",
+        "name": "JavaScript",
+        "level": "3",
+        "hash": "#asdasd"
+    },
+    {
+        "id": 5,
+        "type": "frontEnd",
+        "img": "",
+        "name": "React",
+        "level": "4",
+        "hash": "#asdasd"
+    },
+    {
+        "id": 6,
+        "type": "backEnd",
+        "img": "",
+        "name": "Git",
+        "level": "3",
+        "hash": "#asdasd"
+    },
+    {
+        "id": 7,
+        "type": "backEnd",
+        "img": "",
+        "name": "Node JS",
+        "level": "0",
+        "hash": "#asdasd"
+    },
+    {
+        "id": 8,
+        "type": "backEnd",
+        "img": "",
+        "name": "Express",
+        "level": "0",
+        "hash": "#asdasd"
+    },
+    {
+        "id": 9,
+        "type": "backEnd",
+        "img": "",
+        "name": "Mongo DB",
+        "level": "0",
+        "hash": "#asdasd"
+    }
+]

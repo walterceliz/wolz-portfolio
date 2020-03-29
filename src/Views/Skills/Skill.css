@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 460px;
+    padding: 1rem 0.5rem;
+    opacity: 0.6;
+    
+}
+
+.carousel{
+    height: 30rem;
+}
+
+
+.carousel-inner {
+    top: 8rem;
+    height: 200px;
+}
+
+.carousel-caption{
+    top: 6rem;
+    text-align: center;
+}

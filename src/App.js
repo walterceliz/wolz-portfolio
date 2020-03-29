@@ -4,7 +4,7 @@ import './App.css'
 
 import Navbar from './Components/Navbar'
 import Home from './Views/Home/Home'
-//import TodoSkills from './Views/Skills/TodoSkills'
+import Skills from './Views/Skills/Skills'
 import Portfolio from './Views/Portfolio/Portfolio'
 //import Contact from './Views/Contact/Contact'
 
@@ -19,7 +19,7 @@ function App() {
       <Switch>
         <Route path='/'  exact component={Home} />    
         <Route path='/home'  exact component={Home} />
-        {/* <Route path='/skills' component={TodoSkills} /> */}
+        <Route path='/skills' component={Skills} />
         <Route path='/portfolio' component={Portfolio} />
         {/* <Route path='/contact'  exact component={Contact} /> */}
       </Switch>
