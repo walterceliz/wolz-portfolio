@@ -23,12 +23,8 @@
     font-family: 'Press Start 2P';
     font-size: 1.2rem;
     border: solid;
-    border-color: yellow;
-    background: rgba(0, 0, 0, 0.8);
-}
-
-.detalle1 {
-    color: cyan;
+    border-color: rgb(50,188,233);;
+    background: black;
 }
 
 .cardcontainer {

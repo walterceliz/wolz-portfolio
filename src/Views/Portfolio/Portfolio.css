@@ -5,11 +5,11 @@
 }
 
 .portBack h2{
-    color:yellow;
+    color: rgb(50,188,233);
     text-align: center;
     position: relative;
     top: 20rem;
     font-size: 3rem;
-    border: solid yellow;
+    color: rgb(50,188,233);
     background: rgba(31, 1, 61, 0.566);
 }

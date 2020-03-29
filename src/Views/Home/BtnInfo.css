@@ -3,38 +3,44 @@
 
 .movete {
     position: absolute;
-    top: 15rem;
-    left: 9rem;
+    top: 17rem;
+    left: 7.5rem;
 }
 
-.movete .btn-success {
-    color: rgb(0, 255, 0);
-    background-color: transparent;
-    border-color: rgb(26, 170, 26);
-    font-size: 50px;
+.movete .btn-info {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-color: rgb(50,188,233);
+    font-size: 1.1rem;
+    font-family: 'Press Start 2P';
 }
 
 .btn-secondary {
     color: white;
-    background: orangered;
-    border-color: transparent;
+    background: rgba(0, 0, 0, 0.8);
+    border-color: rgb(50,188,233);
 }
 
 .close .modal-title {
-    color: orangered;
+    color: white;
 }
 
 .close {
-    color: orangered;
+    color: white;
 }
 
 .custom1 {
-    background: rgba(0, 0, 0, 0.475);
+    background: rgb(0, 3, 38);
 }
 
 .custom2 {
-    background: rgb(16, 2, 34);
+    background: rgb(0, 3, 38);
     color: white;
+}
+
+.modal-title img{
+    height: 2rem;
+    width: 4rem;
 }
 
 .modal-body {
@@ -65,13 +71,7 @@
 .per {
     font-family: 'Press Start 2P';
     font-size: 0.8rem;
-    color: rgb(238, 241, 24)
-}
-
-.presentation {
-    position: relative;
-    margin-top: 6rem;
-    color: mediumaquamarine;
+    color: rgb(50,188,233);
 }
 
 .education1 {

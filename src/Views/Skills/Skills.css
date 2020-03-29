@@ -7,14 +7,14 @@
 
 .skillsBack button {
     padding: 0 30px;
-    color:yellow;
+    color: white;
     text-align: center;
     position: relative;
     bottom: 2rem;
     left: 3rem;
     font-size: 1.5rem;
-    border: solid yellow;
-    background: rgba(0, 0, 0, 0.566);
+    border: solid rgb(50,188,233);
+    background: black;
     font-family: 'Press Start 2P';
 }
 

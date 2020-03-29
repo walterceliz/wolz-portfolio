@@ -1,11 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './BtnInfo.css'
 
 const BtnInfo = (props) => {
     return (
         <div className="movete">
-            <button type="button" className="btn btn-success" data-toggle="modal" data-target="#exampleModalCenter">
-                <span role="img" aria-label="sheep">👆</span>
+            <button type="button" className="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter">
+                <span role="img" aria-label="sheep">Insert<br/>Coin</span>
             </button>
 
            {/*  Modal */}
@@ -13,7 +14,7 @@ const BtnInfo = (props) => {
                 <div className="modal-dialog modal-dialog-centered" role="document">
                     <div className="modal-content custom2">
                         <div className="modal-header">
-                            <h5 className="modal-title" id="exampleModalCenterTitle"><img className="logoModal" src="https://upload.wikimedia.org/wikipedia/fr/4/46/Ecole_W_Logo.png" alt="logo"/></h5>
+                            <h5 className="modal-title" id="exampleModalCenterTitle"><img src="https://upload.wikimedia.org/wikipedia/fr/4/46/Ecole_W_Logo.png" alt="logo"/></h5>
                                 <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
@@ -29,17 +30,6 @@ const BtnInfo = (props) => {
                             <p>Estado civil: {props.est}.</p>
                         </div>
                         
-
-                        {/* <div className="presentation">
-                            <p>Si me tuviera que presentar diria que soy algo Geek, googlero de alma y tal vez un bicho raro.
-                            Mis pasatiempos son los deportes, salidas con amigos, vicio en PC, consumir multimedia sea series, anime, pelis y ohhh, el maldito pero amado youtube!!.<br/>   
-                            Empece a programar de grande cerca de mis 24 años por mero interes y termine enganchando a este mundo, el hecho de que salga algo nuevo cada dia me llena de intrigas y me hace googlear</p>
-                            <p>Si me tuviera que presentar diria que soy algo Geek, googlero de alma y tal vez un bicho raro.
-                            Mis pasatiempos son los deportes, salidas con amigos, vicio en PC, consumir multimedia sea series, anime, pelis y ohhh, el maldito pero amado youtube!!.<br/>   
-                            Empece a programar de grande cerca de mis 24 años por mero interes y termine enganchando a este mundo, el hecho de que salga algo nuevo cada dia me llena de intrigas y me hace googlear</p>
-                        </div> */}
-                        
-
                         <div className="education1">
                             <p className="per">-Educacion-</p>
                             <p>Primaria: {props.prim}</p>
@@ -61,6 +51,9 @@ const BtnInfo = (props) => {
 
                         </div>
                         <div className="modal-footer">
+                            <Link to="/skills">
+                                <button type="button" className="btn btn-secondary">Habilidades</button>
+                            </Link>
                             <button type="button" className="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                         </div>
                     </div>

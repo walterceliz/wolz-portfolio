@@ -7,7 +7,6 @@
     max-height: 460px;
     padding: 1rem 0.5rem;
     opacity: 0.6;
-    
 }
 
 .carousel{
@@ -23,4 +22,28 @@
 .carousel-caption{
     top: 6rem;
     text-align: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: cyan;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: cyan;
 }

@@ -5,9 +5,9 @@
     position: relative;
     text-decoration: none;
     padding: 16px 32px;
-    color: turquoise;
+    color: rgb(50,188,233);
     overflow: hidden;
-    border: 2px solid turquoise;
+    border: 2px solid rgb(50,188,233);
     margin: 0 3px;
 }
 
@@ -18,8 +18,8 @@
     left: 2px;
     width: 10px;
     height: 10px;
-    border-bottom: 2px solid turquoise;
-    border-left: 2px solid turquoise;
+    border-bottom: 2px solid rgb(50,188,233);
+    border-left: 2px solid rgb(50,188,233);
 }
 
 .button::after {
@@ -29,13 +29,13 @@
     right: 2px;
     width: 10px;
     height: 10px;
-    border-top: 2px solid turquoise;
-    border-right: 2px solid turquoise;
+    border-top: 2px solid rgb(50,188,233);
+    border-right: 2px solid rgb(50,188,233);
 }
 
 .button:hover {
-    background-color: turquoise;
-    box-shadow: 0px 0px 40px turquoise;
+    background-color: rgb(50,188,233);
+    box-shadow: 0px 0px 40px rgb(50,188,233);
     color: black;
     transition: all 0.2s ease-in-out 0.2s
 }
@@ -108,7 +108,7 @@
 @media only screen and (max-width: 767px) {
     .navbar-nav.ml-auto {
         /* background: rgba(75, 11, 148, 0.342); */
-        background: rgba(1, 17, 10, 0.431);
+        background: black;
     }
     .navbar-toggler {
         padding: 1px 5px;

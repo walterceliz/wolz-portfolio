@@ -2,7 +2,7 @@
     {
         "id": 0,
         "type": "frontEnd",
-        "img": "https://cnnespanol2.files.wordpress.com/2019/12/s_64a163f16ecbb099e52f2f8271f73cbbfcfc9034be4d646f7375e4db1ca6f3d7_1573501883482_ap_19001106049831-1.jpg?quality=100&strip=info&w=320&h=240&crop=1",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLhQT-4Eq4dncb-uNGyUVZSX6lR4yPFrGm7I-zMmmRyrYPMPJa",
         "name": "Git",
         "level": "4",
         "hash": "#asdasd"
@@ -10,7 +10,7 @@
     {
         "id": 1,
         "type": "frontEnd",
-        "img": "https://i.ytimg.com/vi/n_KrxgXrU4w/maxresdefault.jpg",
+        "img": "",
         "name": "Html 5",
         "level": "4",
         "hash": "#asdasd"
